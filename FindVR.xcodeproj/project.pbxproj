@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B1C5660276612F1009582E4 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C565D276612EF009582E4 /* chair_swan.usdz */; };
+		6B1C5662276612F1009582E4 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C565F276612F1009582E4 /* teapot.usdz */; };
+		6B1C566427661324009582E4 /* shoe.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C566327661324009582E4 /* shoe.usdz */; };
+		6BB172DD276532AC00FED454 /* chooseClueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB172DC276532AC00FED454 /* chooseClueViewController.swift */; };
 		6BC2207F2764C4500009C9A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC2207E2764C4500009C9A6 /* AppDelegate.swift */; };
 		6BC220812764C4500009C9A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC220802764C4500009C9A6 /* SceneDelegate.swift */; };
 		6BC220832764C4500009C9A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC220822764C4500009C9A6 /* ViewController.swift */; };
 		6BC220862764C4500009C9A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC220842764C4500009C9A6 /* Main.storyboard */; };
 		6BC220882764C4520009C9A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC220872764C4520009C9A6 /* Assets.xcassets */; };
 		6BC2208B2764C4520009C9A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC220892764C4520009C9A6 /* LaunchScreen.storyboard */; };
+		6BC220932764C9010009C9A6 /* createChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC220922764C9010009C9A6 /* createChallengeViewController.swift */; };
+		6BC220952764CB7B0009C9A6 /* arViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC220942764CB7B0009C9A6 /* arViewController.swift */; };
+		6BC220972764D0570009C9A6 /* cup_saucer_set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6BC220962764D0570009C9A6 /* cup_saucer_set.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B1C565D276612EF009582E4 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
+		6B1C565F276612F1009582E4 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
+		6B1C566327661324009582E4 /* shoe.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = shoe.usdz; sourceTree = "<group>"; };
+		6BB172DC276532AC00FED454 /* chooseClueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseClueViewController.swift; sourceTree = "<group>"; };
 		6BC2207B2764C4500009C9A6 /* FindVR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindVR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC2207E2764C4500009C9A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BC220802764C4500009C9A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,9 @@
 		6BC220872764C4520009C9A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BC2208A2764C4520009C9A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BC2208C2764C4520009C9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BC220922764C9010009C9A6 /* createChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createChallengeViewController.swift; sourceTree = "<group>"; };
+		6BC220942764CB7B0009C9A6 /* arViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arViewController.swift; sourceTree = "<group>"; };
+		6BC220962764D0570009C9A6 /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup_saucer_set.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +70,20 @@
 		6BC2207D2764C4500009C9A6 /* FindVR */ = {
 			isa = PBXGroup;
 			children = (
+				6BC220962764D0570009C9A6 /* cup_saucer_set.usdz */,
+				6B1C565D276612EF009582E4 /* chair_swan.usdz */,
+				6B1C566327661324009582E4 /* shoe.usdz */,
+				6B1C565F276612F1009582E4 /* teapot.usdz */,
 				6BC2207E2764C4500009C9A6 /* AppDelegate.swift */,
 				6BC220802764C4500009C9A6 /* SceneDelegate.swift */,
 				6BC220822764C4500009C9A6 /* ViewController.swift */,
+				6BC220922764C9010009C9A6 /* createChallengeViewController.swift */,
+				6BC220942764CB7B0009C9A6 /* arViewController.swift */,
+				6BB172DC276532AC00FED454 /* chooseClueViewController.swift */,
 				6BC220842764C4500009C9A6 /* Main.storyboard */,
-				6BC220872764C4520009C9A6 /* Assets.xcassets */,
 				6BC220892764C4520009C9A6 /* LaunchScreen.storyboard */,
 				6BC2208C2764C4520009C9A6 /* Info.plist */,
+				6BC220872764C4520009C9A6 /* Assets.xcassets */,
 			);
 			path = FindVR;
 			sourceTree = "<group>";
@@ -125,8 +146,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BC220972764D0570009C9A6 /* cup_saucer_set.usdz in Resources */,
 				6BC2208B2764C4520009C9A6 /* LaunchScreen.storyboard in Resources */,
+				6B1C5662276612F1009582E4 /* teapot.usdz in Resources */,
+				6B1C566427661324009582E4 /* shoe.usdz in Resources */,
 				6BC220882764C4520009C9A6 /* Assets.xcassets in Resources */,
+				6B1C5660276612F1009582E4 /* chair_swan.usdz in Resources */,
 				6BC220862764C4500009C9A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BC220932764C9010009C9A6 /* createChallengeViewController.swift in Sources */,
 				6BC220832764C4500009C9A6 /* ViewController.swift in Sources */,
 				6BC2207F2764C4500009C9A6 /* AppDelegate.swift in Sources */,
+				6BC220952764CB7B0009C9A6 /* arViewController.swift in Sources */,
+				6BB172DD276532AC00FED454 /* chooseClueViewController.swift in Sources */,
 				6BC220812764C4500009C9A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
